@@ -1,0 +1,129 @@
+.promocional-infantil {
+    margin-top: 60px;
+    background-color: var(--azul-fundo);
+  }
+  
+  .promocional-infantil,
+  .promocional-casamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+  
+  .promocional-infantil-icone,
+  .promocional-casamento-icone {
+    background-color: var(--azul-fundo);
+  }
+  
+  .promocional-infantil-icone img,
+  .promocional-casamento-icone img {
+    height: 450px;
+  }
+  
+  .promocional-infantil-img,
+  .promocional-infantil-img img,
+  .promocional-casamento-img,
+  .promocional-casamento-img img {
+    width: 100%;
+    height: 450px;
+  }
+  
+  .promocional-infantil-caixa {
+    position: absolute;
+    right: 850px;
+    top: 65px;
+    padding: 60px;
+    border-radius: 5px;
+    width: 650px;
+    background-color: var(--white);
+  }
+  
+  .promocional-casamento-caixa {
+    position: absolute;
+    right: 400px;
+    top: 65px;
+    padding: 60px;
+    border-radius: 5px;
+    width: 650px;
+    background-color: var(--white);
+    z-index: 9999;
+  }
+  
+  .promocional-infantil-caixa h2,
+  .promocional-casamento-caixa h2 {
+    margin-bottom: 30px;
+  }
+  
+  .promocional-infantil-caixa p,
+  .promocional-casamento-caixa p {
+    margin-bottom: 30px;
+  }
+  
+  .promocional-infantil-caixa a,
+  .promocional-casamento-caixa a {
+    padding: 20px;
+    width: 16rem;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 1600px){
+    .promocional-infantil-caixa {
+      right: 650px;
+    }
+    
+    .promocional-casamento-caixa {
+      right: 200px;
+    }
+  }
+  
+  @media (max-width: 1260px){
+    .promocional-infantil-caixa {
+      right: 550px;
+    }
+    
+    .promocional-casamento-caixa {
+      right: 100px;
+    }
+  }
+  
+  @media (max-width: 900px){
+    .promocional-infantil-caixa {
+      right: 650px;
+    }
+    
+    .promocional-casamento-caixa {
+      right: 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .promocional-infantil-icone img,
+    .promocional-casamento-icone img {
+      display: none;
+    }
+  
+    .promocional-infantil-img,
+    .promocional-infantil-img img,
+    .promocional-casamento-img,
+    .promocional-casamento-img img {
+      height: 250px;
+      width: 100%;
+    }
+    .promocional-infantil,
+    .promocional-casamento {
+      grid-template-columns: 1fr;
+    }
+  
+    .promocional-infantil-caixa {
+      position: initial;
+      height: 350px;
+      width: 100%;
+    }
+  
+    .promocional-casamento-caixa {
+      position: initial;
+      height: 350px;
+      width: 100%;
+    }
+  }
+  

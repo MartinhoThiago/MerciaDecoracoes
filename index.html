@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+  <title>Mércia - Decoração e Locação</title>
+</head>
+
+<body>
+  <header>
+    <div class="contato-topo">
+      <div class="container">
+        <div class="contato-header">
+          <div class="contato-tel-email">
+            <a href="tel:+5511993437369" class="contato-tel">
+              <img src="./img/telefone.svg" alt="">
+              <p>+5511993437369</p>
+            </a>
+            <a href="mailto:contato@mercia.com" class="contato-email">
+              <img src="./img/email.svg" alt="">
+              <p>contato@mercia.com</p>
+            </a>
+          </div> <!--contato-tel-email-->
+          <div class="contato-social">
+            <a href="https://www.facebook.com/mercia.negretti"><img src="./img/facebook-header.svg" alt=""></a>
+            <a href="https://www.instagram.com/mbd.eventos"><img src="./img/instagram-header.svg" alt=""></a>
+          </div> <!--contato-social-->
+        </div> <!--contato-header-->
+      </div> <!--container-->
+    </div> <!--contato-topo-->
+
+
+    <div class="logo-section-bg">
+      <div class="container logo-section">
+        <div class="logo">
+          <a href="index.html"><img src="./img/logo-header.svg" alt="logotipo"></a>
+        </div> <!--logo-->
+        <a class="button-whats header-button" href="#">WHATSAPP <img src="./img/arrow-button.svg"> </a>
+        <div class="hamburguer-nav">
+          <img src="./img/hamburguer-menu.svg" alt="">
+        </div>
+      </div> <!--container logo-section-->
+    </div> <!--logo-section-bg-->
+
+    <div class="">
+
+      <nav>
+        <ul class="menu container">
+          <a class="button-whats menu-button" href="#">WHATSAPP <img src="./img/arrow-button.svg"> </a>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li data-dropdown>
+            <a href="#">Decorações</a>
+            <img src="./img/flecha-dropdown.svg" alt="">
+            <ul class="dropdown-menu">
+              <li><a href="casamento.html">Casamento</a></li>
+              <li><a href="debutante.html">Debutante</a></li>
+              <li><a href="infantil.html">Infantil</a></li>
+            </ul>
+          </li>
+          <li><a href="locacoes.html">Locação</a></li>
+          <li><a href="depoimento.html">Depoimentos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="carousel">
+    <div class="container">
+      <h1>Realize a festa que merece</h1>
+      <p>Há mais de 13 anos realizando sonhos</p>
+    </div>
+  </section>
+
+  <section class="categorias-section container" id="categorias">
+    <h1>CATEGORIAS</h1>
+    <div class="categorias">
+      <div class="infantil-categorias">
+        <a href="infantil.html">
+          <img src="./img/infantil-categorias.jpg" alt="">
+          <span>Infantil</span>
+        </a>
+      </div>
+
+      <div class="casamento-categorias">
+        <a href="casamento.html">
+          <img src="./img/casamento-categorias.jpg" alt="">
+          <span>Casamento</span>
+        </a>
+      </div>
+
+      <div class="tematico-categorias">
+        <a href="debutante.html">
+          <img src="./img/15anos/15anos.jpg" alt="">
+          <span>Debutante</span>
+        </a>
+      </div>
+
+    </div> <!--categorias-->
+  </section>
+
+  <section class="promocional-infantil">
+    <div class="promocional-infantil-icone">
+      <img src="./img/balao-fundo-section.svg" alt="">
+    </div>
+    <div class="promocional-infantil-img">
+      <img src="./img/infantil/infantil ciderela 1.png" alt="">
+    </div>
+
+    <div class="promocional-infantil-caixa">
+      <h2>A festa dos sonhos</h2>
+      <p>Transforme a festa infantil do seu filho em um evento inesquecível, repleto de magia e diversão</p>
+      <a class="button-whats" href="#">Solicitar Orçamento <img src="./img/arrow-button.svg"> </a>
+    </div>
+  </section>
+
+  <section class="promocional-casamento">
+    <div class="promocional-casamento-img">
+      <img src="./img/casamento/casamento Love1 (1) 1.png" alt="">
+    </div>
+    <div class="promocional-casamento-icone">
+      <img src="./img/copo-fundo-section.svg" alt="">
+    </div>
+
+    <div class="promocional-casamento-caixa">
+      <h2>Um casamento inesquecível</h2>
+      <p>Celebre o amor de maneira inesquecível em um casamento que será lembrado para toda a vida</p>
+      <a class="button-whats" href="#">Solicitar Orçamento <img src="./img/arrow-button.svg"> </a>
+    </div>
+  </section>
+
+  <section class="contato">
+    <div class="container">
+      <span class="contato-titulo">Faça a sua festa dos sonhos</span>
+      <span class="contato-paragrafo">Agilize seu orçamento enviando o contato abaixo!</span>
+    </div>
+
+    <div class="formulario container">
+      <form id="contatoFormulario" action="" method="POST">
+
+        <div class="nome-form">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" placeholder="Coloque seu nome" required>
+        </div>
+
+        <div class="email-form">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="cel-form">
+          <label for="celular">Celular</label>
+          <input type="text" id="celular" name="celular" placeholder="(11) 99999-9999" required>
+        </div>
+
+        <div class="data-form">
+          <label for="data">Data</label>
+          <input type="date" id="data" name="data" required>
+        </div>
+
+        <div class="tema-form">
+          <label for="tema">Tema</label>
+          <select id="tema" name="tema" required>
+            <option disabled selected value="selecionar">Selecione o tema </option>
+            <option value="casamento">Casamento</option>
+            <option value="debutante">Debutante</option>
+            <option value="infantil">Infantil</option>
+          </select>
+        </div>
+
+        <div class="hora-form">
+          <label for="hora-desejada">Hora desejada</label>
+          <input type="time" id="hora_desejada" name="hora_desejada" required>
+        </div>
+
+
+        <div class="mensagem-form">
+          <label for="mensagem">Mensagem</label>
+          <textarea rows="10" name="mensagem" id="mensagem" placeholder="Diga a temática que gostaria pra sua festa"
+            required></textarea>
+        </div>
+
+        <button class="button-whats botao-contato" type="submit">Enviar Mensagem <img
+            src="./img/arrow-button.svg"></button>
+
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer-bg">
+    <div class="footer container">
+      <div class="footer-logo">
+        <a href="index.html"><img src="./img/Logo-footer.svg" alt=""></a>
+      </div>
+
+      <div class="footer-contato">
+        <h3>CONTATO</h3>
+        <div class="footer-icons">
+          <a href="https://www.instagram.com/mbd.eventos"><img src="./img/intagram-footer.svg" alt=""></a>
+          <a href=""><img src="./img/whatsapp-footer.svg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="footer-mapa">
+        <h3>MAPA DO SITE</h3>
+        <div class="footer-paginas">
+          <a href="sobre.html">Sobre a Mercia</a>
+          <a href="termos.html">Termos e Condições</a>
+          <a href="#categorias">Categorias</a>
+          <a href="politica.html">Privacidade</a>
+          <a href="contatos.html">Contato</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="module" src="js/script.js"></script>
+</body>
+
+</html>

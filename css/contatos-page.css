@@ -1,0 +1,53 @@
+.contatos {
+    background-image: url("../img/fundo-contato.jpg");
+  }
+  
+  .contatos-titulo {
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: bold;
+  }
+  
+  .contatos-paragrafo {
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--white);
+  }
+  
+  /* Estilização do formulário */
+  
+  .formulario {
+    margin-bottom: 30px;
+  }
+
+  
+  @media (max-width: 768px) {
+    .contato-titulo {
+      font-size: 1.8rem;
+    }
+  
+    .formulario div{
+      padding-bottom: 15px;
+    }
+  
+    form {
+      display: inline-block;
+      width: 100%;
+    }
+  
+    .formulario input[type="text"],
+    .formulario input[type="email"],
+    .formulario input[type="date"],
+    .formulario input[type="time"],
+    .tema-form select,
+    .formulario textarea {
+      max-width: 100%;
+    }
+  
+  
+  }

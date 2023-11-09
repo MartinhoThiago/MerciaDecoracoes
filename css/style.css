@@ -1,0 +1,30 @@
+/* import da fonte Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap");
+
+/* import da estilização global do site */
+@import url("./global.css");
+
+/* import dos componentes estilizados principais do site */
+@import url("./header.css");
+@import url("./categorias.css");
+@import url("./promocional.css");
+@import url("./contato.css");
+@import url("./footer.css");
+
+/* estilizacao das págians de categorias */
+@import url("./categoria-item.css");
+
+/* estilização da página de contato */
+@import url("./contatos-page.css");
+
+/* estilização da página de depoimento */
+@import url("./depoimento.css");
+
+/* Estilização da página sobre */
+@import url("./sobre.css");
+
+/* Estilização da política de privacidade e Termos de Uso */
+@import url("./politicas.css");
+
+/* Estilização da página de locação */
+@import url("./locação.css");

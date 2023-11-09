@@ -1,0 +1,56 @@
+.footer-bg {
+    background-color: var(--cinza1);
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+
+  .footer-icons a{
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer-contato h3,
+  .footer-mapa h3 {
+    color: var(--white);
+    width: auto;
+    white-space: nowrap;
+    margin-bottom: 10px;
+  }
+  
+  .footer-contato,
+  .footer-mapa {
+    margin-top: 10px;
+   
+  }
+  
+  .footer-contato img {
+    margin-top: 8px;
+  }
+  
+  .footer-paginas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 8px;
+  }
+  
+  .footer-paginas a {
+    color: var(--white);
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  
+  }

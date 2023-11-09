@@ -1,0 +1,20 @@
+.politicas,
+.termos {
+  margin-top: 60px;
+}
+
+.politicas h2,
+.termos h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.politicas p,
+.termos p {
+  margin-bottom: 30px;
+}
+
+.politicas ul li,
+.termos ul li {
+  list-style-type: disc;
+}

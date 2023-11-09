@@ -1,0 +1,96 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --azul1: #97baff;
+    --azul2: #e8f0ff;
+    --azul-fundo: #E8F0FF;
+    --fundoclaro: #f3f7ff;
+    --cinzaclaro: #9c9c9c;
+    --azulparagrafo: #192229;
+    --rosa-button: #ee74e9;
+    --rosa-hover: #A952A5;
+    --cinza1: #545454;
+  
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Poppins";
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul,
+  li,
+  dd,
+  dt,
+  dd {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .js-scroll {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+    transition: 0.5s;
+  }
+  
+  .js-scroll.ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .button-whats {
+    background-color: var(--rosa-button);
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 1.2rem;
+    display: flex;
+    width: 12rem;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .button-whats:hover {
+    background-color: var(--rosa-hover);
+  }
+  
+  @media (max-width: 768px) {
+  
+    .button-whats {
+      font-size: 0.9rem;
+      width: 10rem;
+      height: 48px;
+      gap: 4px;
+  
+    }
+  
+  
+  }
